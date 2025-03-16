@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402F391D2D85D1DA005EF467 /* VegetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F391C2D85D1DA005EF467 /* VegetaApp.swift */; };
+		402F391F2D85D1DA005EF467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F391E2D85D1DA005EF467 /* ContentView.swift */; };
+		402F39212D85D1DC005EF467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F39202D85D1DC005EF467 /* Assets.xcassets */; };
+		402F39252D85D1DC005EF467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F39242D85D1DC005EF467 /* Preview Assets.xcassets */; };
+		402F392F2D85D1DC005EF467 /* VegetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F392E2D85D1DC005EF467 /* VegetaTests.swift */; };
+		402F39392D85D1DC005EF467 /* VegetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F39382D85D1DC005EF467 /* VegetaUITests.swift */; };
+		402F393B2D85D1DC005EF467 /* VegetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F393A2D85D1DC005EF467 /* VegetaUITestsLaunchTests.swift */; };
+		402F39482D85D83B005EF467 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F39472D85D83B005EF467 /* HomeView.swift */; };
+		402F394A2D85D8AB005EF467 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F39492D85D8AB005EF467 /* MainView.swift */; };
+		402F394C2D85DB5F005EF467 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F394B2D85DB5F005EF467 /* CameraView.swift */; };
+		402F394E2D85DB76005EF467 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F394D2D85DB76005EF467 /* ProfileView.swift */; };
+		40DC2B1A2D85E8B5000C93A3 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC2B192D85E8B5000C93A3 /* CameraPicker.swift */; };
+		40DC2B1C2D85FF3B000C93A3 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC2B1B2D85FF3B000C93A3 /* ImageCard.swift */; };
+		40DC2B1E2D860562000C93A3 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC2B1D2D860562000C93A3 /* BarGraph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402F392B2D85D1DC005EF467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402F39112D85D1DA005EF467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402F39182D85D1DA005EF467;
+			remoteInfo = Vegeta;
+		};
+		402F39352D85D1DC005EF467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402F39112D85D1DA005EF467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402F39182D85D1DA005EF467;
+			remoteInfo = Vegeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		402F39192D85D1DA005EF467 /* Vegeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vegeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402F391C2D85D1DA005EF467 /* VegetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetaApp.swift; sourceTree = "<group>"; };
+		402F391E2D85D1DA005EF467 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		402F39202D85D1DC005EF467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		402F39222D85D1DC005EF467 /* Vegeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vegeta.entitlements; sourceTree = "<group>"; };
+		402F39242D85D1DC005EF467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		402F392A2D85D1DC005EF467 /* VegetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402F392E2D85D1DC005EF467 /* VegetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetaTests.swift; sourceTree = "<group>"; };
+		402F39342D85D1DC005EF467 /* VegetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402F39382D85D1DC005EF467 /* VegetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetaUITests.swift; sourceTree = "<group>"; };
+		402F393A2D85D1DC005EF467 /* VegetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		402F39472D85D83B005EF467 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		402F39492D85D8AB005EF467 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		402F394B2D85DB5F005EF467 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		402F394D2D85DB76005EF467 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		40DC2B192D85E8B5000C93A3 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		40DC2B1B2D85FF3B000C93A3 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		40DC2B1D2D860562000C93A3 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402F39162D85D1DA005EF467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39272D85D1DC005EF467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39312D85D1DC005EF467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402F39102D85D1DA005EF467 = {
+			isa = PBXGroup;
+			children = (
+				402F391B2D85D1DA005EF467 /* Vegeta */,
+				402F392D2D85D1DC005EF467 /* VegetaTests */,
+				402F39372D85D1DC005EF467 /* VegetaUITests */,
+				402F391A2D85D1DA005EF467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402F391A2D85D1DA005EF467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402F39192D85D1DA005EF467 /* Vegeta.app */,
+				402F392A2D85D1DC005EF467 /* VegetaTests.xctest */,
+				402F39342D85D1DC005EF467 /* VegetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402F391B2D85D1DA005EF467 /* Vegeta */ = {
+			isa = PBXGroup;
+			children = (
+				402F391C2D85D1DA005EF467 /* VegetaApp.swift */,
+				402F391E2D85D1DA005EF467 /* ContentView.swift */,
+				402F39202D85D1DC005EF467 /* Assets.xcassets */,
+				402F39222D85D1DC005EF467 /* Vegeta.entitlements */,
+				402F39232D85D1DC005EF467 /* Preview Content */,
+				402F39472D85D83B005EF467 /* HomeView.swift */,
+				402F39492D85D8AB005EF467 /* MainView.swift */,
+				402F394B2D85DB5F005EF467 /* CameraView.swift */,
+				402F394D2D85DB76005EF467 /* ProfileView.swift */,
+				40DC2B192D85E8B5000C93A3 /* CameraPicker.swift */,
+				40DC2B1B2D85FF3B000C93A3 /* ImageCard.swift */,
+				40DC2B1D2D860562000C93A3 /* BarGraph.swift */,
+			);
+			path = Vegeta;
+			sourceTree = "<group>";
+		};
+		402F39232D85D1DC005EF467 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				402F39242D85D1DC005EF467 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		402F392D2D85D1DC005EF467 /* VegetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				402F392E2D85D1DC005EF467 /* VegetaTests.swift */,
+			);
+			path = VegetaTests;
+			sourceTree = "<group>";
+		};
+		402F39372D85D1DC005EF467 /* VegetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				402F39382D85D1DC005EF467 /* VegetaUITests.swift */,
+				402F393A2D85D1DC005EF467 /* VegetaUITestsLaunchTests.swift */,
+			);
+			path = VegetaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402F39182D85D1DA005EF467 /* Vegeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402F393E2D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "Vegeta" */;
+			buildPhases = (
+				402F39152D85D1DA005EF467 /* Sources */,
+				402F39162D85D1DA005EF467 /* Frameworks */,
+				402F39172D85D1DA005EF467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vegeta;
+			productName = Vegeta;
+			productReference = 402F39192D85D1DA005EF467 /* Vegeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		402F39292D85D1DC005EF467 /* VegetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402F39412D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "VegetaTests" */;
+			buildPhases = (
+				402F39262D85D1DC005EF467 /* Sources */,
+				402F39272D85D1DC005EF467 /* Frameworks */,
+				402F39282D85D1DC005EF467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402F392C2D85D1DC005EF467 /* PBXTargetDependency */,
+			);
+			name = VegetaTests;
+			productName = VegetaTests;
+			productReference = 402F392A2D85D1DC005EF467 /* VegetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		402F39332D85D1DC005EF467 /* VegetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402F39442D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "VegetaUITests" */;
+			buildPhases = (
+				402F39302D85D1DC005EF467 /* Sources */,
+				402F39312D85D1DC005EF467 /* Frameworks */,
+				402F39322D85D1DC005EF467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402F39362D85D1DC005EF467 /* PBXTargetDependency */,
+			);
+			name = VegetaUITests;
+			productName = VegetaUITests;
+			productReference = 402F39342D85D1DC005EF467 /* VegetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402F39112D85D1DA005EF467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					402F39182D85D1DA005EF467 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					402F39292D85D1DC005EF467 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 402F39182D85D1DA005EF467;
+					};
+					402F39332D85D1DC005EF467 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 402F39182D85D1DA005EF467;
+					};
+				};
+			};
+			buildConfigurationList = 402F39142D85D1DA005EF467 /* Build configuration list for PBXProject "Vegeta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 402F39102D85D1DA005EF467;
+			productRefGroup = 402F391A2D85D1DA005EF467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402F39182D85D1DA005EF467 /* Vegeta */,
+				402F39292D85D1DC005EF467 /* VegetaTests */,
+				402F39332D85D1DC005EF467 /* VegetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402F39172D85D1DA005EF467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F39252D85D1DC005EF467 /* Preview Assets.xcassets in Resources */,
+				402F39212D85D1DC005EF467 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39282D85D1DC005EF467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39322D85D1DC005EF467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402F39152D85D1DA005EF467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F39482D85D83B005EF467 /* HomeView.swift in Sources */,
+				402F394A2D85D8AB005EF467 /* MainView.swift in Sources */,
+				402F391F2D85D1DA005EF467 /* ContentView.swift in Sources */,
+				402F394C2D85DB5F005EF467 /* CameraView.swift in Sources */,
+				40DC2B1A2D85E8B5000C93A3 /* CameraPicker.swift in Sources */,
+				402F394E2D85DB76005EF467 /* ProfileView.swift in Sources */,
+				402F391D2D85D1DA005EF467 /* VegetaApp.swift in Sources */,
+				40DC2B1E2D860562000C93A3 /* BarGraph.swift in Sources */,
+				40DC2B1C2D85FF3B000C93A3 /* ImageCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39262D85D1DC005EF467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F392F2D85D1DC005EF467 /* VegetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F39302D85D1DC005EF467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F393B2D85D1DC005EF467 /* VegetaUITestsLaunchTests.swift in Sources */,
+				402F39392D85D1DC005EF467 /* VegetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402F392C2D85D1DC005EF467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402F39182D85D1DA005EF467 /* Vegeta */;
+			targetProxy = 402F392B2D85D1DC005EF467 /* PBXContainerItemProxy */;
+		};
+		402F39362D85D1DC005EF467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402F39182D85D1DA005EF467 /* Vegeta */;
+			targetProxy = 402F39352D85D1DC005EF467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		402F393C2D85D1DC005EF467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		402F393D2D85D1DC005EF467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		402F393F2D85D1DC005EF467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vegeta/Vegeta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegeta/Preview Content\"";
+				DEVELOPMENT_TEAM = C8YK7SXBP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need access to camera please";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.Vegeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		402F39402D85D1DC005EF467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vegeta/Vegeta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegeta/Preview Content\"";
+				DEVELOPMENT_TEAM = C8YK7SXBP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need access to camera please";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.Vegeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		402F39422D85D1DC005EF467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.VegetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vegeta";
+			};
+			name = Debug;
+		};
+		402F39432D85D1DC005EF467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.VegetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vegeta";
+			};
+			name = Release;
+		};
+		402F39452D85D1DC005EF467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.VegetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vegeta;
+			};
+			name = Debug;
+		};
+		402F39462D85D1DC005EF467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.VegetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vegeta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402F39142D85D1DA005EF467 /* Build configuration list for PBXProject "Vegeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F393C2D85D1DC005EF467 /* Debug */,
+				402F393D2D85D1DC005EF467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402F393E2D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "Vegeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F393F2D85D1DC005EF467 /* Debug */,
+				402F39402D85D1DC005EF467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402F39412D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "VegetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F39422D85D1DC005EF467 /* Debug */,
+				402F39432D85D1DC005EF467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402F39442D85D1DC005EF467 /* Build configuration list for PBXNativeTarget "VegetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F39452D85D1DC005EF467 /* Debug */,
+				402F39462D85D1DC005EF467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 402F39112D85D1DA005EF467 /* Project object */;
+}
